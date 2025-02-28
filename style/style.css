@@ -15,8 +15,9 @@
   .dark-2{
     color: #474747;
   }
-  .secondery-bg{
+  .secondary-bg{
     background-color: #FFF8F3;
+    padding: 150px;
   }
 
   .btn-primary{
@@ -140,9 +141,7 @@ main section{
   text-align: center;
 }
 /* resume section styles */
-.section-title{
-  text-align: center;
-}
+
 .resume-container{
   display: flex;
   gap: 24px;
@@ -164,16 +163,17 @@ main section{
 }
 /* footer styles */
 footer{
-  padding: 130px 230px;
+  /* padding: 130px 230px; */
   display: flex;
   gap: 100px;
 }
 .footer-column{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
   width: 50%;
 }
-footer input[type="text"], 
-footer input[type="email"], 
-footer textarea {
+footer input[type="text"]  footer input[type="email"], footer textarea{
     height: 64px;
     border-radius: 5px;
     background-color: white;
@@ -183,4 +183,18 @@ footer textarea {
     margin-bottom: 24px;
     border: none;
 }
+.int-container input{
+  width: 450px;
+  height: 60px;
 
+}
+.text-area{
+  height: 100px;
+  width: 420px;
+} 
+.footer-column input{
+  width: 450px;
+  height: 60px;
+  border: none;
+  padding: 2px;
+}
